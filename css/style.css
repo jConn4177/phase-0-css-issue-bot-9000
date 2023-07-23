@@ -1,23 +1,30 @@
 body {
-  background pink;
+  background-color: #e9c46a;
+  font-family: sans-serif;
 }
 
 h1 {
-  color: blue;
-  fontsize: 3em; 
+  color: #264653;
+  font-size: 3em;
 }
 
 h2 {
-  color: green;
-  font-weight: normal
+  color: #2a9d8f;
+  font-weight: normal;
   font-style: italic;
+
 }
 
 .completed {
-  font-family: 12px;
+  font-size: 12px;
 }
 
 #tasks .completed {
-  backgound: #ccc;
+  background: #f4a261;
   text-decoration: underline;
+  color: #264653;
+}
+
+p {
+  color: #264653;
 }
